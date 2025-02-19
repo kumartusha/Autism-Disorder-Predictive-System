@@ -8,8 +8,8 @@ import pickle
 app = Flask(__name__)
 
 #  Load the Models.
-best_model = pickle.load(open("./models/best_model.pkl", "rb"))
-scaling_model = pickle.load(open("./models/label_encoder.pkl", "rb"))
+best_model = pickle.load(open("best_model.pkl", "rb"))
+# scaling_model = pickle.load(open("label_encoder.pkl", "rb"))
 
 
 # Create the Different Routes for Our Model.
